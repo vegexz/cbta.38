@@ -1,0 +1,47 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2E8B57; /* Verde oscuro */
+    color: #fff; /* Texto en color blanco */
+}
+
+header {
+    background-color: #333; /* Fondo del encabezado */
+    color: #fff; /* Texto en color blanco */
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff; /* Enlaces en color blanco */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ffd700; /* Color dorado al pasar el ratón */
+}
+
+/* Imágenes */
+.imagen {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 20px auto;
+}
